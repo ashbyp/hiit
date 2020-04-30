@@ -1,0 +1,27 @@
+{
+  "default": {
+    "title": "Victoria's first lesson",
+    "set-interval": 6,
+    "sets": [
+      {
+        "exercises": [
+          "press-up",
+          "burpies"
+        ],
+        "duration": 3,
+        "interval": 1,
+        "repeat": 2
+      },
+      {
+        "exercises": [
+          "crabs",
+          "plank",
+          "hula"
+        ],
+        "duration": 3,
+        "interval": 1,
+        "repeat": 1
+      }
+    ]
+  }
+}
