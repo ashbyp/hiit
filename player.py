@@ -2,6 +2,12 @@ import json
 import sys
 import pyttsx3
 import time
+from pydub import AudioSegment
+from pydub.playback import play
+
+
+def play_part(start, duration, m):
+    play(m)
 
 
 def pause(seconds):
@@ -22,8 +28,11 @@ def speak(text):
 
 def process_plan(p):
     title = p['title']
+    music = p['music']
     set_interval = p['set-interval']
     sets = p['sets']
+    m = AudioSegment.from_mp3(music)
+    play(m)
 
     speak(f'Stand by for {title}, starting in {set_interval} seconds')
 

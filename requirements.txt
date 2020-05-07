@@ -1,3 +1,9 @@
 comtypes==1.1.7
+ffmpeg==1.4
+ffmpeg-python==0.2.0
+future==0.18.2
+playsound==1.2.2
+pydub==0.23.1
 pyttsx3==2.87
 pywin32==227
+simpleaudio==1.0.4

@@ -1,7 +1,8 @@
 {
   "default": {
     "title": "Victoria's first lesson",
-    "set-interval": 60,
+	"music" : "Distort-Sleepless.mp3",
+    "set-interval": 6,
     "sets": [
       {
         "exercises": [
@@ -10,8 +11,8 @@
           "star-jump",
           "weights"
         ],
-        "duration": 30,
-        "interval": 15,
+        "duration": 3,
+        "interval": 1,
         "repeat": 2
       },
       {
@@ -20,8 +21,8 @@
           "plank",
           "hula"
         ],
-        "duration": 30,
-        "interval": 15,
+        "duration": 3,
+        "interval": 1,
         "repeat": 2
       }
     ]
